@@ -38,6 +38,7 @@ class SettingViewController: UIViewController {
             userDefalt.setDouble(tip3!, forKey: "tip3")
             userDefalt.synchronize()
             self.view.endEditing(true)
+            self.navigationController?.popViewControllerAnimated(true)
         }
     }
     
